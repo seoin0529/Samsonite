@@ -849,7 +849,7 @@ position: absolute;
 
 .md-wrap .md-con .btn-con > ul {
 	margin: 0 auto;
-	width: 390px;
+	max-width: 390px;
 }
 
 .md-wrap .md-con .btn-con > ul li {
