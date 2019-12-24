@@ -354,7 +354,7 @@ nav .nav-wrap .main-menu .sub-menu ul li:hover a {
 
 .m-nav .m-right .m-layout .m-layout-t img {
 	position: fixed;
-	right: 20px;
+	right: 30px;
 	top: 20px;
 	width: 25px;
 }
@@ -371,7 +371,7 @@ nav .nav-wrap .main-menu .sub-menu ul li:hover a {
 	font-size: 14px;
 	font-weight: bold;
 	color: #f2f2f2;
-	padding-left: 15px;
+	padding-left: 10px;
 	cursor: pointer;
 }
 
@@ -546,8 +546,12 @@ position: absolute;
 }
 
 .swiper-container .swiper-slide img {
-/*	width: 100%;*/
+	width: 100%;
+	position: absolute;
 	height: 100%;
+	left: 50%; 
+	transform: translateX(-50%);
+	
 
 }
 
@@ -853,7 +857,7 @@ position: absolute;
 	line-height: 43px;
 	position: relative;
 	font-family: 'Nanum Gothic', sans-serif;
-	font-size: 2.8rem;
+	font-size: 2.6rem;
 	cursor: pointer;
 
 }
@@ -873,17 +877,6 @@ position: absolute;
 	width: 90px;
 }
 
-/*
-.md-wrap .md-con .btn.con < ul li::after{
-		content: ""; position: absolute; width:90px; height: 4px; background-color: #272727; bottom: -15px; left: 50%;  
-	transform: translateX(-50%);
-}
-*/
-/*
-.md-wrap .md-con .btn-con > ul li:first-child{
-	font-weight: bold;
-}
-*/
 .md-wrap .md-con .img-con {
 	max-width: 1180px;
 	height: 340px;
@@ -2142,7 +2135,7 @@ background-position: center top;
 	height: 230px;
 	margin-bottom: 0;
 }
-.best-wrap .con-top .item-t .txt-wrap {
+	.best-wrap .con-top .item-t .txt-wrap {
 
 	vertical-align: baseline;
 }
