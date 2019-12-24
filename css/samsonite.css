@@ -1257,7 +1257,7 @@ position: absolute;
 }
 
 .brand-wrap .brand-con .brand-button ul li:nth-child(4) {
-	width: 15%
+	width: 15%;
 }
 
 .brand-wrap .brand-con .img-wrap {
@@ -2068,7 +2068,7 @@ aside .bottom span {
 		display: none;
 	}
 		.md-wrap .md-con .img-con{
-		max-width: 840px;
+		max-width: 904px;
 	}
 	.m-banner{
 		display: none;
@@ -2077,7 +2077,7 @@ aside .bottom span {
 		display: block;
 	}
 	.brand-wrap .brand-con .img-wrap{
-		max-width: 840px;
+		max-width: 904px;
 	}
 	.info-wrap .info-con .con-wrap .con-left .l-item:nth-child(1) img:nth-child(1) {
 		top: 10px; left: 10px; width: 75px; height: 65px;
