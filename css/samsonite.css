@@ -221,9 +221,10 @@ nav .nav-wrap .main-menu .sub-menu {
 	float: right;
 	overflow: hidden;
 	background-color: #fff;
+	border: 3px solid #568bce;
 	border-top: 0;
 	box-sizing: border-box;
-	transition: all 0.5s;
+	transition: height 0.5s;
 	position: absolute;
 	z-index: 999;
 	top: 67.3px;
@@ -267,7 +268,7 @@ nav .nav-wrap .main-menu .sub-menu ul li a {
 
 nav .nav-wrap .main-menu ul:hover ~ .sub-menu {
 	height: 320px;
-	border: 3px solid #568bce;
+	
 	border-top: 0;
 }
 
@@ -465,6 +466,7 @@ nav .nav-wrap .main-menu .sub-menu ul li:hover a {
 
 .banner-wrap ul li img {
 position: absolute;
+/*	width: 100%;*/
 	height: 100%;
 	left: 50%; 
 	transform: translateX(-50%);
@@ -836,6 +838,7 @@ position: absolute;
 .md-wrap .md-con {
 	max-width: 1180px;
 	margin: 0px auto;
+	padding-top: 20px;
 	position: relative;
 }
 
@@ -2224,7 +2227,9 @@ background-position: center top;
 	}
 	
 	
-	
+	.brand-wrap .brand-con .img-wrap{
+		max-width: 640px;
+	}
 /*
 	.info-wrap .info-con .con-wrap .con-left{
 		width: 100%; height: 140px; margin-bottom: 1.8%;
@@ -2236,9 +2241,16 @@ background-position: center top;
 		width: 100%; height: 140px; margin-bottom: 1.8%;
 	}
 */
+	footer .footer-wrap .footer-left .left-m-l{
+	display: none;
+	}
+	footer .footer-wrap .footer-left .left-m-r .m-info{
+		display: none;
+	}
 	footer .footer-wrap .footer-right ul li span {
 		display: none;
 	}
+	
 	aside{display: none;}
 }
 
