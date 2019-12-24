@@ -398,9 +398,9 @@ nav .nav-wrap .main-menu .sub-menu ul li:hover a {
 	cursor: pointer;
 	font-weight: bold;
 	color: #134a8d;
-	height: 60px;
-	line-height: 60px;
-	font-size: 15px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 14px;
 }
 
 .m-nav .m-right .m-layout .m-layout-l ul li.click {
@@ -428,8 +428,8 @@ nav .nav-wrap .main-menu .sub-menu ul li:hover a {
 }
 
 .m-nav .m-right .m-layout .m-layout-r ul li {
-	font-size: 15px;
-	height: 70px;
+	font-size: 14px;
+	height: 60px;
 	line-height: 70px;
 }
 
