@@ -2260,6 +2260,27 @@ background-position: center top;
 		display: none;
 	}
 	
-	aside{display: none;}
+	aside{
+		display: none;
+	}
+	.brand-wrap .brand-con .brand-button ul li {
+	float: left;
+	width: 15%;
+		
+}
+
+.brand-wrap .brand-con .brand-button ul li:nth-child(2) {
+	width: 33%;
+}
+
+.brand-wrap .brand-con .brand-button ul li:nth-child(3) {
+	width: 23%;
+}
+
+.brand-wrap .brand-con .brand-button ul li:nth-child(4) {
+	width: 30%;
+}
+
+
 }
 
