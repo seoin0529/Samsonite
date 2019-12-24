@@ -465,7 +465,7 @@ nav .nav-wrap .main-menu .sub-menu ul li:hover a {
 
 .banner-wrap ul li img {
 position: absolute;
-	height: 500px;
+	height: 100%;
 	left: 50%; 
 	transform: translateX(-50%);
 }
@@ -526,35 +526,33 @@ position: absolute;
 }
 
 /*//롤링배너 및 버튼*/
-.swiper-container.f{
-	width: 1024px;
+.swiper-container{
 	height: 500px;
+}
+.swiper-container.f{
+	width: 100%;
 	display: none;
 
 	
 }
 .swiper-container.s{
-	width: 640px; 
-	height: 500px;
+	width: 100%;
 	display: none;
 }
 .swiper-container .swiper-slide {
 	position: relative;
-	width: 100%;
-	height: 500px;
 	margin: 0 auto;
 }
 
 .swiper-container .swiper-slide img {
 	width: 100%;
 	position: absolute;
-	height: 100%;
+	height: auto;
+/*	height: 100%;*/
 	left: 50%; 
 	transform: translateX(-50%);
-	
-
+	vertical-align: top;
 }
-
 /*모바일배너 및 인디케이터*/
 .best-wrap {
 	width: 100%;
@@ -608,7 +606,7 @@ position: absolute;
 	height: 100%;
 }
 .best-wrap .con-top .item-t > img:nth-child(2){
-	display: none; padding: 20px;
+	 width: 100%; height: auto;  display: none; padding:5px; box-sizing: border-box;
 }
 .best-wrap .con-top .item-t .txt-wrap {
 
@@ -616,6 +614,7 @@ position: absolute;
 	display: inline-block;
 	vertical-align: middle;
 	cursor: pointer;
+
 }
 
 .best-wrap .con-top .item-t .txt-wrap h2 {
@@ -2129,6 +2128,7 @@ background-position: center top;
 	.swiper-container.s {
 		display: block;
 	}
+
 
 	.best-wrap .con-top .item-t{
 	width: 200px;
