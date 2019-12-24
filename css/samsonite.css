@@ -527,14 +527,14 @@ position: absolute;
 
 /*//롤링배너 및 버튼*/
 .swiper-container.f{
-	max-width: 1024px;
+	width: 1024px;
 	height: 500px;
 	display: none;
 
 	
 }
 .swiper-container.s{
-	max-width: 640px; 
+	width: 640px; 
 	height: 500px;
 	display: none;
 }
