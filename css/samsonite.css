@@ -325,8 +325,8 @@ nav .nav-wrap .main-menu .sub-menu ul li:hover a {
 
 .m-nav .m-right img {
 	position: fixed;
-	top: 15px;
-	right: 20px;
+	top: 40px;
+	right: 30px;
 	width: 30px;
 	cursor: pointer;
 }
@@ -436,25 +436,6 @@ nav .nav-wrap .main-menu .sub-menu ul li:hover a {
 	font-weight: bold;
 }
 
-/*
-.m-nav .m-right .m-layout .m-layout-r ul:nth-of-type(1){
-	display: block;
-}
-*/
-
-
-/*모바일 nav*/
-/*
-nav .nav-wrap .main-menu .sub-menu ul li:hover{
-	background-color: #568bce;
-}
-*/
-/*
-nav .nav-wrap .main-menu .sub-menu ul li:hover a{
-	color: #f6f6f6; font-weight: bold;
-}
-*/
-/*//서브메뉴*/
 
 
 /*//로고 및 메뉴*/
@@ -565,7 +546,8 @@ position: absolute;
 }
 
 .swiper-container .swiper-slide img {
-width: 100%; height: 100%;
+/*	width: 100%;*/
+	height: 100%;
 
 }
 
@@ -618,7 +600,8 @@ width: 100%; height: 100%;
 	margin-bottom: 4.63%;
 }
 .best-wrap .con-top .item-t img:nth-child(1){
-	width: 100%; height: 100%;
+/*	width: 100%; */
+	height: 100%;
 }
 .best-wrap .con-top .item-t > img:nth-child(2){
 	display: none; padding: 20px;
