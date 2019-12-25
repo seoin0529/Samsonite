@@ -1850,6 +1850,7 @@ footer .footer-wrap .footer-left {
 
 footer .footer-wrap .left-t ul li {
 	float: left; 
+	width: 10%;
 	text-align: center; 
 	padding-right: 16px; 
 	position: relative;
@@ -1858,7 +1859,7 @@ footer .footer-wrap .left-t ul li {
 
 footer .footer-wrap .left-t ul li a {
 	color: #464646; 
-	font-size: 1.5rem;
+	font-size: 1.4rem;
 }
 
 footer .footer-wrap .left-t ul li:nth-of-type(3) a {
@@ -2080,7 +2081,7 @@ aside .bottom span {
 		display: none;
 	}
 		.md-wrap .md-con .img-con{
-		max-width: 850px;
+		max-width: 1024px;
 	}
 	.m-banner{
 		display: none;
@@ -2089,7 +2090,7 @@ aside .bottom span {
 		display: block;
 	}
 	.brand-wrap .brand-con .img-wrap{
-		max-width: 850px;
+		max-width: 1024px;
 	}
 		.brand-wrap .brand-con .arrow img {
 	top: 60%;
@@ -2128,8 +2129,26 @@ background-position: center top;
 	z-index: 99;
 }
 	
-	aside{display: none;}
-
+	aside{
+		display: none;
+	}
+	footer .footer-wrap .left-t ul li{
+		width: 30%
+	}
+	footer .footer-wrap .footer-right ul li span {
+		display: none;
+	}
+	footer .footer-wrap .footer-left{
+		width: 80%;
+	}
+	footer .footer-wrap .footer-right{
+		width: 10%;
+	}
+	footer .footer-wrap .footer-left .left-m-r{
+		width: 80%;
+		float: left;
+		padding-left: 2%;
+	}
 }
 
 @media screen and (max-width:640px) {
@@ -2295,7 +2314,9 @@ background-position: center top;
 	}
 */
 	footer .footer-wrap .left-t ul li{
-		width: 29%;
+		width: 28%;
+		height: 30px;
+		padding-right: 10px;
 	}
 	footer .footer-wrap .footer-left .left-m-l{
 	display: none;
@@ -2306,7 +2327,37 @@ background-position: center top;
 	footer .footer-wrap .footer-right ul li span {
 		display: none;
 	}
-	
+	footer .footer-wrap .footer-left{
+		width: 90%;
+	}
+	footer .footer-wrap .footer-right{
+		width: 7%;
+		padding-left: 3%;
+	}
+	footer .footer-wrap .footer-left .left-m-r{
+		width: 80%;
+		float: left;
+		padding-left: 2%;
+	}
+
+footer .footer-wrap .footer-left .left-m-r h1 {
+	width: 110px;
+	padding-bottom: 2%;
+}
+
+
+footer .footer-wrap .footer-left .left-m-r p:nth-of-type(1) {
+	width: 110px; 
+	padding-bottom: 2%;
+	text-decoration: underline;
+}
+	footer .footer-wrap {
+	padding: 0 5px;
+}
+	footer .footer-wrap .footer-right {
+	padding: 0;
+
+}
 	aside{
 		display: none;
 	}
