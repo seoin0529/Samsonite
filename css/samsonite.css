@@ -210,7 +210,7 @@ nav .nav-wrap .main-menu > ul > li:hover a,
 nav .nav-wrap .main-menu > ul > li.hover a,
 nav .nav-wrap .main-menu > ul > li.hover {
 	background-color: #134a8d;
-	color: #f2f2f2;
+	color: #134a8d;
 }
 
 /*//상단메뉴*/
@@ -549,11 +549,7 @@ nav .nav-wrap .main-menu .sub-menu ul li:hover a {
 	height: 0;
 	padding-bottom: 48%;
 	display: none;
-
-
-
 }
-
 .swiper-container.s {
 	width: 100%;
 	height: 0;
@@ -578,6 +574,15 @@ nav .nav-wrap .main-menu .sub-menu ul li:hover a {
 	left: 50%;
 	transform: translateX(-50%);
 	vertical-align: top;
+}
+
+.swiper-container .swiper-button-next,
+.swiper-container .swiper-button-prev{
+	color: #134a8d;
+}
+.swiper-container .swiper-button-next:hover,
+.swiper-container .swiper-button-prev:hover{
+	color: #f2f2f2;
 }
 
 /*모바일배너 및 인디케이터*/
