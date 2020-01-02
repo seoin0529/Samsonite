@@ -1555,6 +1555,7 @@ nav .nav-wrap .main-menu .sub-menu ul li:hover a {
 	height: 432px;
 	margin-top: 80px;
 	margin-bottom: 40px;
+	
 }
 
 .info-wrap .info-con {
@@ -1729,6 +1730,7 @@ nav .nav-wrap .main-menu .sub-menu ul li:hover a {
 .info-wrap .info-con .con-wrap .con-right {
 	width: 32.2%;
 	height: 352px;
+	overflow: hidden;
 	float: left;
 }
 
@@ -2370,9 +2372,10 @@ aside .bottom span {
 		width: 100%;
 		margin-right: 0;
 		clear: both;
+		
 	}
 
-	.info-wrap .info-con .con-wrap .con-left .l-item:nth-child(1) {
+	.info-wrap .info-con .con-wrap .con-left .l-item:nth-child(1){
 		margin-bottom: 0;
 	}
 
