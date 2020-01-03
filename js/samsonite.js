@@ -74,6 +74,9 @@
 		autoplay :{
 			delay : 2500
 		},
+		slidesPerView :1,
+		spaceBetween:0,
+		speed: 1000,
 		loop :true,
 		navigation:{
 			nextEl :".swiper-button-next",
@@ -84,8 +87,15 @@
 			clickable : true
 		}
 	}) ; //태블릿,모바일롤링배너 swiper
-	 
+
+	var mySwiper = document.querySelector(".swiper-container").swiper
 	
+	$(".swiper-container").mouseenter(function(){
+		mySwiper.autoplay.stop()
+	});
+	 $(".swiper-container").mouseleave(function(){
+		 mySwiper.autoplay.start();
+	 })
 	
 	
 	 
