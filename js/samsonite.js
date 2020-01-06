@@ -255,6 +255,7 @@
 		$m_main.removeClass("open").eq(h).addClass("open");
 		$m_main.removeClass("click").eq(h).addClass("click");
 		$m_sub.hide().eq(h).fadeIn(500)
+		
 	}) //모바일 메뉴
 
 	var $slide_button =$(".m-nav .m-right img"),
@@ -267,6 +268,9 @@
 			});// open_click
 	 		$slide_close.click(function(){
 			$slide_m_menu.fadeOut();
+			$m_main.removeClass("open").eq(0).addClass("open");
+			$m_main.removeClass("click").eq(0).addClass("click");
+			$m_sub.hide().eq(0).fadeIn();
 	 		})//close_click
 	 
 	 
