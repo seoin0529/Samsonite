@@ -2,11 +2,9 @@
 
 html,body {
 	font-size: 10px;
-}
-
-body {
 	font-family: 'Nanum Gothic', sans-serif;
 }
+
 
 header {
 	width: 100%;
@@ -210,7 +208,7 @@ nav .nav-wrap .main-menu > ul > li:hover a,
 nav .nav-wrap .main-menu > ul > li.hover a,
 nav .nav-wrap .main-menu > ul > li.hover {
 	background-color: #134a8d;
-	color: #134a8d;
+	color: #f2f2f2;
 }
 
 /*//상단메뉴*/
@@ -1657,7 +1655,7 @@ nav .nav-wrap .main-menu .sub-menu ul li:hover a {
 /*quick메뉴 고객센터*/
 .info-wrap .info-con .con-wrap .con-left .l-item:nth-child(2) {
 	position: relative;
-	background-image: url("../images/samsonite/quickmenu/img_storeopen.png");
+	background-image: url("http://westai.co.kr/images/samsonite/quickmenu/img_storeopen.png");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: 100% 100%;
@@ -1695,7 +1693,7 @@ nav .nav-wrap .main-menu .sub-menu ul li:hover a {
 	height: 352px;
 	float: left;
 	overflow: hidden;
-	background-image: url("../images/samsonite/quickmenu/img_shopthelook.jpg");
+	background-image: url("http://westai.co.kr/images/samsonite/quickmenu/img_shopthelook.jpg");
 	background-size: 352px;
 	text-align: center;
 	position: relative;
@@ -1752,7 +1750,7 @@ nav .nav-wrap .main-menu .sub-menu ul li:hover a {
 	background-color: #144b8e;
 	margin-bottom: 20px;
 	overflow: hidden;
-	background-image: url("../images/samsonite/quickmenu/store.jpg");
+	background-image: url("http://westai.co.kr/images/samsonite/quickmenu/store.jpg");
 	background-position: center center;
 	position: relative;
 }
@@ -2255,6 +2253,7 @@ aside .bottom span {
 	.m-nav {
 		display: block;
 	}
+	
 
 	.banner-wrap {
 		display: none;
