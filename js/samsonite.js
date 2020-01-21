@@ -91,7 +91,7 @@
 	var mySwiper = document.querySelector(".swiper-container").swiper
 	
 	$(".swiper-container").mouseenter(function(){
-		mySwiper.autoplay.stop()
+		mySwiper.autoplay.stop();
 	});
 	 $(".swiper-container").mouseleave(function(){
 		 mySwiper.autoplay.start();
